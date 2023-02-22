@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+  <script type="module">
+    import * as Turbo from 'https://cdn.skypack.dev/@hotwired/turbo';
+  </script>
+  <title>Wireframe</title>
+  <style>
+    .turbo-progress-bar {
+      height: 10px;
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/home">Home</a>
+      <a href="/contact" data-turbo-confirm="Do you want to leave this page?">Contact</a>
+      <a href="/about">About</a>
+    </nav>
+
+    <h1>Learn Hotwire</h1>
+
+    <p>Yes, you can really use Hotwire without Rails. Give it a try!</p>
+  </header>
+  <main>
+  </main>
+</body>
+</html>

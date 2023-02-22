@@ -1,0 +1,15 @@
+{
+  "name": "wireframe",
+  "version": "1.0.0",
+  "description": "Using Hotwire without Ruby on Rails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hotwire",
+    "turbo"
+  ],
+  "author": "AK",
+  "license": "MIT"
+}
