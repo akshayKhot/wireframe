@@ -28,7 +28,16 @@
 
     <p>Yes, you can really use Hotwire without Rails. Give it a try!</p>
   </header>
-  <main>
+  <main style="text-align: center;">
+    <h1>Gallery</h1>
+
+    <turbo-frame id="gallery">
+      <img src="images/ocean.jpeg" alt="Ocean" width="500" height="400">
+      
+      <div>
+        <a href="/gallery/forest">Next (forest)</a>
+      </div>
+    </turbo-frame>
   </main>
 </body>
 </html>
