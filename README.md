@@ -10,4 +10,4 @@ This is a simple demo of a static website using Hotwire without Rails.
 
 If you run into any problems, or have any questions regarding the code, email me at akshay.khot@hey.com
 
-- AK
+\- AK
